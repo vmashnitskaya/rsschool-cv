@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resume</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Resume</title>
+        <link href="https://fonts.googleapis.com/css?family=Gothic+A1:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="candidate">
+                    <div class="name">Volha Mashnitskaya</div>
+                    <div class="desired-position">Junior Software Engineer</div>
+                </div>
+            </header>
+            <section class="main">
+                <div class="left_block">
+                    <div class="contacts">
+                        <h4 class="header">Contact information</h4>
+                        <ul>
+                            <li>Phone: +375(29)770-37-71</li>
+                            <li>Email: volha.mashnitskaya@gmail.com</li>
+                            <li>Skype: Volha Mashnitskaya</li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h4 class="header">Skills</h4>
+                        <ul>
+                            <li>Programming languages ​​and technologies: JavaScript(ES5, ES6), HTML, CSS/SCSS/SASS, XML</li>
+                            <li>Methodologies: Agile(Scrum), SAFe</li>
+                            <li>Version control: Git, Subversion</li>
+                            <li>Database: Oracle(SQL)</li>
+                            <li>WebDriver/TestNG/Java</li>
+                            <li>Manual testing</li>
+                        </ul>
+                    </div>
+                    <div class="code-example">
+                        <h4 class="header">Code example</h4>
+                        <div class="code">
+                            <code>
+                                <pre>
+                                function isIntArray(arr) {
+                                                if(Array.isArray(arr) && (arr.length == 0 || checkInteger(arr))){
+                                                  return true;
+                                                } else
+                                                  return false;
+                                                }
+                                                
+                                                function checkInteger(array){
+                                                  return array.every(element => Number.isInteger(element));
+                                                }
+                                </pre>
+                            </code>
+                        </div>
+                    </div>
+                    <div class="language">
+                        <h4 class="header">Language proficiency</h4>
+                        <ul>
+                            <li>
+                                <span>English:</span>
+                                Cambridge English: Advanced Certificate(2016): Council of Europe Level C1</li>
+                            <li>
+                                <span>Spanish:</span>
+                                Novice</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right_block">
+                    <div class="profile">
+                        <h4 class="header">Profile</h4>
+                        <p>Working as software testing engineer I have understood how it is important to have convenient and user-friendly application client side and why customers highly prioritize new UI/UX features. My objective is to become a qualified front-end developer who will be able to convert effectively company and customer needs into interactive applications.
+                            <br>
+                            I always strive to learn something new, and participation in the school gives me the very opportunity to get the knowledge that will help me reach my goal.</p>
+                    </div>
+                    <div class="experience">
+                        <h4 class="header">Experience</h4>
+                        <div class="position">Software testing engineer</div>
+                        <div class="year">07.2018 - present</div>
+                        <div class="company">EPAM, Minsk, Belarus</div>
+                        <div class="responsibilities">The main responsibilities are analysis and review of specification, estimation of tasks, design and support of test scenarios, functional testing, communication with customers.</div>
+                    </div>
+                    <div class="education">
+                        <h4 class="header">Education</h4>
+                        <div class="university">
+                            <div class="specialization">International Relations</div>
+                            <div class="study-place">Belarusian State University, Faculty of International Relations</div>
+                            <div class="year">2015-2019</div>
+                        </div>
+                        <div class="offline-course">
+                            <div class="specialization">Software Functional Testing</div>
+                            <div class="study-place">Educational Center of HTP</div>
+                            <div class="year">03.2017 – 05.2017</div>
+                        </div>
+                    </div>
+                    <div class="online-courses">
+                        <div class="online-course">
+                            <h4 class="header">Online education</h4>
+                            <div>Epam courses:</div>
+                            <ul>
+                                <li>Continuous Integration with Jenkins</li>
+                                <li>Maven Build Tool</li>
+                                <li>Version Control with Git</li>
+                                <li>JavaScript for Test Engineers</li>
+                                <li>WebDriver</li>
+                            </ul>
+                        </div>
+                        <div class="online-course">
+                            <div>Codeacademy:</div>
+                            <ul>
+                                <li>Introduction to HTML</li>
+                                <li>Introduction to JavaScript</li>
+                                <li>Learn Java</li>
+                                <li>Learn Git</li>
+                                <li>Learn the Command Line</li>
+                            </ul>
+                        </div>
+                        <div class="online-course">
+                            <div>Udemy:</div>
+                            <ul>
+                                <li>WEB-разработчик 2019(The work example ca be found in repository pulse-project)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
 </html>
