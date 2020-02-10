@@ -1,0 +1,450 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+  outline: 3px solid #861b1f;
+  outline-offset: -18px;
+}
+
+header {
+  height: 290px;
+  font-weight: 300;
+  color: white;
+  background-color: #1a1a1a;
+}
+
+header img {
+  display: inline-block;
+  width: 260px;
+  height: 260px;
+  margin-left: 40px;
+  -webkit-transform: translateY(160px);
+          transform: translateY(160px);
+  border-radius: 100%;
+}
+
+header .candidate {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 160px;
+  margin-left: 64px;
+}
+
+header .candidate-name {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+header .candidate-position {
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+section.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  word-spacing: 0.25em;
+  font-weight: 400;
+  line-height: 20px;
+  color: #404041;
+  opacity: 0.9;
+}
+
+section.main .header {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #00aeef;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+section.main .left-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 354px;
+  border-right: 2px solid rgba(135, 154, 156, 0.5);
+}
+
+section.main .left-blocks .block {
+  margin-left: 40px;
+  margin-right: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(135, 154, 156, 0.5);
+}
+
+section.main .left-blocks .block.contacts ul {
+  margin-top: 10px;
+}
+
+section.main .left-blocks .block.contacts ul li {
+  margin-top: -2px;
+  margin-left: -28px;
+  list-style-type: none;
+}
+
+section.main .left-blocks .block.contacts ul li.phone:before {
+  content: url("https://img.icons8.com/ios/22/000000/phonelink-ring.png");
+  position: relative;
+  left: -14px;
+  top: 3px;
+}
+
+section.main .left-blocks .block.contacts ul li.email:before {
+  content: url("https://img.icons8.com/ios/22/000000/email-open.png");
+  position: relative;
+  left: -14px;
+  top: 3px;
+}
+
+section.main .left-blocks .block.contacts ul li.skype:before {
+  content: url("https://img.icons8.com/small/22/000000/skype.png");
+  position: relative;
+  left: -14px;
+  top: 3px;
+}
+
+section.main .left-blocks .block.skills ul {
+  margin-left: -38px;
+  text-align: justify;
+}
+
+section.main .left-blocks .block.skills ul li {
+  line-height: 1.4em;
+  list-style-type: none;
+}
+
+section.main .left-blocks .block.skills ul li span {
+  font-weight: 700;
+}
+
+section.main .left-blocks .block.code {
+  border-bottom: none;
+}
+
+section.main .left-blocks .block.code code {
+  font-size: 14px;
+  word-spacing: 0em;
+}
+
+.right-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right-blocks .block {
+  margin-left: 24px;
+  margin-right: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(135, 154, 156, 0.5);
+}
+
+.right-blocks .block.profile {
+  text-align: justify;
+}
+
+.right-blocks .block.experience .position-year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-blocks .block.experience .position-year .position {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #404041;
+}
+
+.right-blocks .block.experience .position-year .year {
+  word-spacing: normal;
+}
+
+.right-blocks .block.experience .company {
+  margin-bottom: 0.8em;
+  word-spacing: normal;
+}
+
+.right-blocks .block.experience .responsibilities {
+  text-align: justify;
+}
+
+.right-blocks .block.education .studies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.right-blocks .block.education .studies .specialization {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #404041;
+}
+
+.right-blocks .block.online-courses .courses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-blocks .block.online-courses .courses .course div {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #404041;
+}
+
+.right-blocks .block.online-courses .courses .course li {
+  margin-left: -40px;
+  list-style-type: none;
+}
+
+.right-blocks .block.language {
+  border-bottom: none;
+}
+
+.right-blocks .block.language li {
+  margin-left: -40px;
+  list-style-type: none;
+}
+
+.right-blocks .block.language li span {
+  font-weight: 700;
+}
+
+footer {
+  height: 70px;
+  background-color: #1a1a1a;
+}
+
+@media (max-width: 2000px) {
+  .container {
+    max-width: 1024px;
+  }
+  .left-blocks .block.language {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .left-blocks {
+    padding-top: 110px;
+    border-right: none;
+  }
+  .left-blocks .block.language {
+    display: block;
+    border-top: 2px solid rgba(135, 154, 156, 0.5);
+    border-bottom: none !important;
+  }
+  .right-blocks .block.language {
+    display: none;
+  }
+  .right-blocks .block.online-courses {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    outline: 2px solid #861b1f;
+    outline-offset: -12px;
+  }
+  header {
+    height: 250px;
+  }
+  header img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+  }
+  header .candidate {
+    display: block;
+    text-align: center;
+    -webkit-transform: translateY(-300px);
+            transform: translateY(-300px);
+  }
+  section.main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.main .left-blocks {
+    padding-top: 110px;
+    border-right: none;
+  }
+  section.main .left-blocks .block {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  section.main .left-blocks .block.header {
+    text-align: center;
+  }
+  section.main .left-blocks .block.language {
+    display: none;
+  }
+  section.main .right-blocks .block {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  section.main .right-blocks .block .header {
+    text-align: center;
+  }
+  section.main .right-blocks .block.profile {
+    border-top: 2px solid rgba(135, 154, 156, 0.5);
+  }
+  section.main .right-blocks .block.language {
+    display: block;
+    border-bottom: none;
+  }
+  section.main .right-blocks .block.online-courses {
+    border-bottom: 2px solid rgba(135, 154, 156, 0.5);
+  }
+  footer {
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    height: 220px;
+  }
+  header img {
+    -webkit-transform: translateY(140px);
+            transform: translateY(140px);
+    width: 160px;
+    height: 160px;
+  }
+  header .candidate {
+    -webkit-transform: translateY(-260px);
+            transform: translateY(-260px);
+    margin-left: 0px;
+  }
+  header .candidate-name {
+    font-size: 24px;
+  }
+  header .candidate-position {
+    font-size: 16px;
+  }
+  section.main {
+    font-size: 14px;
+  }
+  section.main .left-blocks {
+    min-width: 300px;
+    padding-top: 100px;
+    border-right: none;
+  }
+  section.main .left-blocks .block {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.main .left-blocks .block .header {
+    font-size: 16px;
+  }
+  section.main .left-blocks .block.contacts ul li.phone:before {
+    left: -10px;
+  }
+  section.main .left-blocks .block.contacts ul li.email:before {
+    left: -10px;
+  }
+  section.main .left-blocks .block.contacts ul li.skype:before {
+    left: -10px;
+  }
+  section.main .left-blocks .block.code code {
+    font-size: 12px;
+    word-spacing: 0em;
+  }
+  section.main .right-blocks {
+    min-width: 300px;
+  }
+  section.main .right-blocks .block {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.main .right-blocks .block .header {
+    font-size: 14px;
+  }
+  section.main .right-blocks .block.experience .position-year {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.main .right-blocks .block.experience .position-year .position {
+    font-size: 14px;
+  }
+  section.main .right-blocks .block.education .studies .specialization {
+    font-size: 14px;
+  }
+  section.main .right-blocks .block.online-courses .courses .course div {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 380px) {
+  header {
+    height: 200px;
+  }
+  header img {
+    -webkit-transform: translateY(130px);
+            transform: translateY(130px);
+    width: 150px;
+    height: 150px;
+  }
+  header .candidate {
+    -webkit-transform: translateY(-260px);
+            transform: translateY(-260px);
+  }
+  header .candidate-name {
+    font-size: 24px;
+  }
+  header .candidate-position {
+    font-size: 14px;
+  }
+  section.main .left-blocks {
+    padding-top: 90px;
+  }
+  section.main .left-blocks .block.contacts {
+    margin-top: 0;
+  }
+}
