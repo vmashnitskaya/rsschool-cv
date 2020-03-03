@@ -75,7 +75,7 @@ Course: Software Testing Engineer
 
 **Udemy:**
 
-* WEB-разработчик 2019(The work example ca be found in repository [pulse-project](https://github.com/vmashnitskaya/pulse-project))
+* WEB-разработчик 2019(The work example ca be found in repository [pulse-project](https://vmashnitskaya.github.io/pulse-project/src/))
 
 ## English
 ***
