@@ -32,18 +32,13 @@ header img {
 header .candidate {
   display: inline-block;
   margin: 0 auto;
-  margin-top: 160px;
+  margin-top: 170px;
   margin-left: 64px;
 }
 
 header .candidate-name {
   font-size: 32px;
   text-transform: uppercase;
-}
-
-header .candidate-position {
-  font-size: 22px;
-  opacity: 0.8;
 }
 
 section.main {
@@ -363,9 +358,7 @@ footer {
   header .candidate-name {
     font-size: 24px;
   }
-  header .candidate-position {
-    font-size: 16px;
-  }
+
   section.main {
     font-size: 14px;
   }
@@ -437,9 +430,6 @@ footer {
   }
   header .candidate-name {
     font-size: 24px;
-  }
-  header .candidate-position {
-    font-size: 14px;
   }
   section.main .left-blocks {
     padding-top: 90px;
